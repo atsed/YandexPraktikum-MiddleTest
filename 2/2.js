@@ -10,7 +10,6 @@ function get(obj, path, defaultValue) {
         if (obj[value]) {
             return newObj = obj[value];
         } else {
-            console.log("wfefwfwfwf", defaultValue);
             return prob = false;
         }
     }
