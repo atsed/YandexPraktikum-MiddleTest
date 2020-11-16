@@ -10,11 +10,9 @@ function get(obj, path, defaultValue) {
         if (obj[value]) {
             return newObj = obj[value];
         } else {
-            console.log("wfefwfwfwf", defaultValue);
             return prob = false;
         }
     }
-    //console.log(splitPath[0]);
     for (let i = 0; i < splitPath.length; i++) {
         result = retObj(newObj, splitPath[i], defaultValue);
     }
